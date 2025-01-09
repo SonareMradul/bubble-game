@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(85, 189, 85);
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(85, 189, 85);
+    width: 80%;
+    height: 90%;
+    
+    
+}
+#heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+    
+}
+#panel{
+    overflow: hidden; /* when we applied border radius on panel and 
+    we assigned panel top a color panel radius got hidden, 
+    so overflow is used to prevent the content of container 
+    from overflow. behenchod  */
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+   
+}
+#ptop{
+    padding: 0px 30%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(14, 159, 14);
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    color: black;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 700;
+}
+#ptbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(19, 197, 19);
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color:rgb(37, 222, 37) ;
+}
+#lastScreen{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#restart{
+    display: flex;
+    width: 110px;
+    height: 20px;
+    font-family: monospace;
+    background-color: black;
+    color: antiquewhite;
+    font-weight: 800;
+    text-align: center;
+    box-shadow: none;
+}
